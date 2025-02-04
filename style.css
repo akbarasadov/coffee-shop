@@ -1,0 +1,424 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.promo {
+    background: url(./img/promo.png) no-repeat center/cover;
+    height: 640px;
+    padding: 30px 0;
+}
+
+.promo_text {
+    text-align: center;
+    padding-top: 111px;
+    color: white;
+}
+
+.promo_text h1 {
+    font-family: Merienda;
+    font-size: 40px;
+    line-height: 57.76px;
+    margin-bottom: 20px;
+}
+
+.promo_text h2 {
+    font-family: Merienda;
+    font-size: 24px;
+    line-height: 34.66px;
+    margin: 35px 0 18px;
+}
+
+.header {
+    display: flex;
+    gap: 40px;
+    align-items: flex-end;
+}
+
+.menu {
+    gap: 40px;
+    display: flex;
+    padding-bottom: 5px;
+}
+
+.menu a {
+    font-family: Merienda;
+    font-size: 12px;
+    line-height: 17.33px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    transform: scale(1.1);
+}
+
+.btn {
+    width: 120px;
+    height: 30px;
+    border-radius: 3px;
+    background: none;
+    font-family: Merienda;
+    transition: 0.3s;
+    font-size: 14px;
+    color: white;
+    border: 1px solid #FFFFFF
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.about {
+    text-align: center;
+    padding: 80px 0 100px;
+}
+
+.about h2 {
+    font-family: Merienda;
+    font-size: 24px;
+    line-height: 34.66px;
+    margin-bottom: 20px;
+
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.about p {
+    margin-bottom: 20px;
+    font-family: Merienda;
+    font-size: 14px;
+    line-height: 20.22px;
+}
+
+.about_text {
+    width: 589px;
+    margin: 0 auto;
+}
+
+.popular {
+    background: url(./img/popular.png) no-repeat center/cover;
+    padding: 80px 0 110px;
+}
+
+.popular h2 {
+    font-family: Merienda;
+    font-size: 24px;
+    line-height: 34.66px;
+    text-align: center;
+    margin-bottom: 39px;
+
+}
+
+.product_box {
+    display: grid;
+    grid-template-columns: repeat(3, 220px);
+    gap: 71px;
+    justify-content: center;
+}
+
+.product {
+    background: rgba(255, 255, 255, 0.651);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s;
+}
+
+.product:hover {
+    transform: scale(1.1);
+}
+
+.product img {
+    display: block;
+    margin: auto;
+
+}
+
+.product h3 {
+    font-family: Merienda;
+    font-size: 14px;
+    line-height: 20.22px;
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+.product b {
+    font-family: Merienda;
+    font-size: 14px;
+    line-height: 20.22px;
+    margin-top: 10px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0 30px;
+}
+
+.footer a {
+    color: black;
+}
+
+.menu {
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 36px;
+}
+
+
+/*------------------our coffee---------------------*/
+.header {
+    display: flex;
+    gap: 40px;
+    align-items: flex-end;
+}
+
+.menu {
+    gap: 40px;
+    display: flex;
+    padding-bottom: 5px;
+}
+
+.menu a {
+    font-family: Merienda;
+    font-size: 12px;
+    line-height: 17.33px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    transform: scale(1.1);
+}
+
+.page_promo {
+    height: 260px;
+}
+
+.pt_60 {
+    padding-top: 60px;
+}
+
+.about_box {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.w-340 {
+    width: 340px;
+    margin: 0;
+}
+
+.filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 83px;
+    padding: 60 0;
+    padding-bottom: 70px;
+}
+
+.filter_btn {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    gap: 5px;
+    background: none;
+}
+
+.shadow {
+    box-shadow: 5px 5px 15px 0px #00000040;
+}
+
+.product_box a {
+    color: black;
+    text-decoration: none;
+}
+
+.promo {
+    padding-bottom: 30px;
+    justify-content: flex-end;
+    display: flex;
+
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0 30px;
+}
+
+.footer a {
+    color: black;
+}
+
+.menu {
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 36px;
+}
+
+.promo h1 {
+    margin-bottom: 30px;
+}
+
+
+/* ------------------ About ---------------- */
+.about_box_alt h2 {
+    font-family: Merienda;
+    font-size: 24px;
+    line-height: 34.66px;
+    text-align: center;
+}
+
+.about_box_alt {
+    text-align: left;
+    justify-content: space-around;
+    align-items: flex-end;
+    display: flex;
+    gap: 30px;
+}
+
+.p {
+    padding-bottom: 15px;
+    font-family: Merienda;
+    font-size: 14px;
+    line-height: 20.22px;
+}
+
+.about_text img {
+    padding-left: 70px;
+}
+
+.pl {
+    padding-bottom: 55px;
+    font-family: Merienda;
+    font-size: 14px;
+    line-height: 20.22px;
+}
+/*--------For your pleasure-----------*/
+.header {
+    display: flex;
+    gap: 40px;
+    align-items: flex-end;
+}
+
+.menu {
+    gap: 40px;
+    display: flex;
+    padding-bottom: 5px;
+}
+
+.menu a {
+    font-family: Merienda;
+    font-size: 12px;
+    line-height: 17.33px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    transform: scale(1.1);
+}
+
+.page_promo {
+    height: 260px;
+}
+
+.pt_60 {
+    padding-top: 60px;
+}
+
+.about_box {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 0 50px;
+}
+
+.w-340 {
+    width: 340px;
+    margin: 0;
+}
+
+.filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 83px;
+    padding: 60 0;
+    padding-bottom: 70px;
+}
+
+.filter_btn {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    gap: 5px;
+    background: none;
+}
+
+.shadow {
+    box-shadow: 5px 5px 15px 0px #00000040;
+}
+
+.product_box a {
+    color: black;
+    text-decoration: none;
+}
+
+.promo {
+    padding-bottom: 30px;
+    justify-content: flex-end;
+    display: flex;
+
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0 30px;
+}
+
+.footer a {
+    color: black;
+}
+
+.menu {
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 36px;
+}
+
+.promo h1 {
+    margin-bottom: 30px;
+}
+
