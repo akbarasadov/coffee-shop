@@ -294,11 +294,10 @@ img {
 }
 
 .about_box_alt {
-    text-align: left;
-    justify-content: space-around;
-    align-items: flex-end;
+    padding-top: 50px;
     display: flex;
-    gap: 30px;
+    gap: 20px;
+    padding-inline: 200px;
 }
 
 .p {
@@ -307,11 +306,6 @@ img {
     font-size: 14px;
     line-height: 20.22px;
 }
-
-.about_text img {
-    padding-left: 70px;
-}
-
 .pl {
     padding-bottom: 55px;
     font-family: Merienda;
